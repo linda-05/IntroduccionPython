@@ -1,11 +1,10 @@
-
-print("bienvenidos dinos los precio, ganacia y impuesto")
+print("bienvenidos dinos los precio, ganancia y impuesto")
 #escribir leer
 precio = input("ingrese el precio:")
-precio = float(Precio)
+precio = float(precio)
 
-ganancia = input("ingrese el ganacia:")
-ganancia = float(ganacia)
+ganancia = input("ingrese el ganancia:")
+ganancia = float(ganancia)
 
 impuesto = input ("ingrese el impuesto:")
 impuesto = float(impuesto)
@@ -14,12 +13,12 @@ impuesto = float(impuesto)
 def calcularimpuesto(impuesto, precio): 
     return impuesto * precio
 
-def calcularganacia(ganacia, precio): 
-    return ganacia * precio
+def calcularganancia(ganancia, precio): 
+    return ganancia * precio
 
-def calcularpreciofinal(precio, impuesto):
-    precio1 = calcularganacia(ganacia, precio) + precio
-    impuestventa = calcularimpuesto(impuesto, precio1)
-    return precio1 + impuestventa
+def calcularpreciofinal(precio, impuesto, ganancia):
+    precio1 = calcularganancia(ganancia, precio) + precio
+    impuestoventa = calcularimpuesto(impuesto, precio1)
+    return precio1 + impuestoventa
 
 print(calcularpreciofinal(precio, impuesto, ganancia))
