@@ -1,0 +1,5 @@
+a1 = input("Ingrese un munero entero")
+a2 = input("Ingrese un munero entero")
+suma = int(a1) + int (a2)
+print(suma)
+print(a1 + a2)
