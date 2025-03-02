@@ -1,7 +1,7 @@
 Numero = float(input ("Ingrese un numero"))
-if numero > 0 :
-    print (f"{numero} es positivo")
-elif numero < 0:
-    print (f"{numero} es negativo")
+if Numero > 0 :
+    print (f"{Numero} es positivo")
+elif Numero < 0:
+    print (f"{Numero} es negativo")
 else:
     print ("El numero es cero")
